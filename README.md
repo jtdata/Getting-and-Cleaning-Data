@@ -17,19 +17,19 @@ Here are the data for the project: https://d396qusza40orc.cloudfront.net/getdata
 
 You should create one R script called run_analysis.R that does the following.
 
-    Merges the training and the test sets to create one data set.
-    Extracts only the measurements on the mean and standard deviation for each measurement.
-    Uses descriptive activity names to name the activities in the data set
-    Appropriately labels the data set with descriptive activity names.
-    Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+-Merges the training and the test sets to create one data set.
+-Extracts only the measurements on the mean and standard deviation for each measurement.
+-Uses descriptive activity names to name the activities in the data set
+-Appropriately labels the data set with descriptive activity names.
+-Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-##What you find in this repository
+##In this repository:
 
 -CodeBook.md: information about raw and tidy data set and elaboration made to transform them
 -README.md: this file
 -run_analysis.R: R script to transform raw data set in a tidy one
 
-How to create the tidy data set
+##To create the tidy data set:
 
 -clone this repository: git clone git@github.com:maurotrb/getting-cleaning-data-2014-project.git
 -download compressed raw data
@@ -37,4 +37,4 @@ How to create the tidy data set
 -open an R console and set the working directory to the repository root (use setwd())
 -source run_analisys.R script (it requires the plyr package): source('run_analysis.R')
 
-In the repository root directory you find the file sensor_avg_by_act_sub.txt with the tidy data set.
+In the repository root directory is the file sensor_avg_by_act_sub.txt with the tidy data set.
